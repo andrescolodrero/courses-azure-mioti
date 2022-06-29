@@ -1,0 +1,16 @@
+1. Crear un funcion
+Necesitas:
+Resource Gorup
+Storage Account
+Escoger Runtime
+
+2. Ejecutar Funcion y probar
+3. Acceder a la funcion
+(funcionurl)&name=andres
+probar con postman
+
+
+
+# LOcal
+1. Instalar Azure FUnctions COre
+2. 

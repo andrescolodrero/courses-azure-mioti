@@ -1,0 +1,54 @@
+ AZure Functions (AF) = Eventos + Código
+
+
+ - COdigo
+ - Que evento hace de disparador
+ - Serverless: - Delegar el mantenimiento de servidores (PaaS)
+
+ Ejemplo: Ejecuta una function a cierta hora del día
+          - UN mensaje o un fichero descargado ejecuta una función
+
+
+- Esto puede realizar con Azure VMs o WebApps. Que es diferente?
+
+- AZure VM: Instala lo que quieras, controla el servidor, OS
+            - Cons: responsabilidad, mantenimiento, monitor
+            - Ejecuta la mæaquina incluso sin utiizarla
+
+- WebApps Service: Paas. Facil de desplegar, soporta multiple lenguajes, hosting plan (multiples web sites), webJobs (tareas)
+cons: Usado principalmente para webSites o APIs.
+
+- AZure Functions: Se ejecuta sobre WebJobs
+
+
+##################
+AZure Functions
+
+- Ahora en Version 4
+- MOdelo simplificado de programación
+- No Boilerplate
+- Precio basado en consumo (si no hay mensa)
+- Escalado automático
+
+Precio:
+
+############
+Beneficios
+- Desarrollo simple y rápido (código en POrtal o VS COde)
+- FOcus en el codigo, no boilerplate
+- AzureWeb Apps (dominios, TLS, AUthorización)
+- Precio: Paga por uso.
+
+
+######
+Cuando usar Azure Functions
+
+- Web API: Trigger HTTP que desencadenaeventos
+
+- Cargas de Archivos: Ejecutar  código cuando se recibe un archivo
+
+- FLujos de Trabajo: Encadenar funciones mediante el uso de Durable Functions
+- Trigger de Base de Datos
+- Ejecutar Tareas Programadas: Eventos de mensajes o tiempo
+- Proceso de Datos en tiempo real: Casos en IoT, o 
+- Docker Container
